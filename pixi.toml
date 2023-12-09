@@ -11,3 +11,4 @@ platforms = ["osx-arm64"]
 [dependencies]
 python = "3.12.0.*"
 setuptools = "68.2.2.*"
+numpy = "1.26.2.*"
