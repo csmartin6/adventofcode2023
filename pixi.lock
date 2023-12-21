@@ -49,6 +49,26 @@ package:
   size: 154444
   timestamp: 1700280972188
 - platform: osx-arm64
+  name: cachetools
+  version: 5.3.2
+  category: main
+  manager: conda
+  dependencies:
+  - python >=3.7
+  url: https://conda.anaconda.org/conda-forge/noarch/cachetools-5.3.2-pyhd8ed1ab_0.conda
+  hash:
+    md5: 185cc1bf1d5af90020292888a3c7eb5d
+    sha256: cb8a6688d5650e4546a5f3c5b825bfe3c82594f1f588a93817f1bdb23e74baad
+  build: pyhd8ed1ab_0
+  arch: aarch64
+  subdir: osx-arm64
+  build_number: 0
+  license: MIT
+  license_family: MIT
+  noarch: python
+  size: 14739
+  timestamp: 1698197442391
+- platform: osx-arm64
   name: libblas
   version: 3.9.0
   category: main
@@ -314,6 +334,31 @@ package:
   license: X11 AND BSD-3-Clause
   size: 794741
   timestamp: 1698751574074
+- platform: osx-arm64
+  name: networkx
+  version: 3.2.1
+  category: main
+  manager: conda
+  dependencies:
+  - python >=3.9
+  url: https://conda.anaconda.org/conda-forge/noarch/networkx-3.2.1-pyhd8ed1ab_0.conda
+  hash:
+    md5: 425fce3b531bed6ec3c74fab3e5f0a1c
+    sha256: 7629aa4f9f8cdff45ea7a4701fe58dccce5bf2faa01c26eb44cbb27b7e15ca9d
+  build: pyhd8ed1ab_0
+  arch: aarch64
+  subdir: osx-arm64
+  build_number: 0
+  constrains:
+  - matplotlib >=3.5
+  - scipy >=1.9,!=1.11.0,!=1.11.1
+  - numpy >=1.22
+  - pandas >=1.4
+  license: BSD-3-Clause
+  license_family: BSD
+  noarch: python
+  size: 1149552
+  timestamp: 1698504905258
 - platform: osx-arm64
   name: numpy
   version: 1.26.2
